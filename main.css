@@ -17,7 +17,6 @@ body {
   font-family: sans-serif;
   min-height: 100vh;
   display: grid;
-
   /* place-items shorthand property for align-items justify-items */
   place-items: center;
   background: var(--clr-dark);
@@ -31,42 +30,4 @@ p {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=main.css.map */
