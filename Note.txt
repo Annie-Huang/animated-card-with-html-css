@@ -7,4 +7,5 @@ https://github.com/kevin-powell/popdog-card-clone
 https://popdog.com/
 ===================================================================
 
+C:\react\animated-card-with-html-css>npm init -y
 
