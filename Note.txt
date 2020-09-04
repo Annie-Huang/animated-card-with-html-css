@@ -2,5 +2,9 @@ Animated card with HTML & CSS | Tutorial
 https://www.youtube.com/watch?v=YmyqlM13JUU&t=100s
 
 https://github.com/Annie-Huang/animated-card-with-html-css
+https://github.com/kevin-powell/popdog-card-clone
+
 https://popdog.com/
 ===================================================================
+
+
