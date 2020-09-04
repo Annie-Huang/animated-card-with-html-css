@@ -5,7 +5,11 @@ https://github.com/Annie-Huang/animated-card-with-html-css
 https://github.com/kevin-powell/popdog-card-clone
 
 https://popdog.com/
-===================================================================
+
+https://stackoverflow.com/questions/12833514/paused-in-debugger-in-chrome
+https://superuser.com/questions/249050/chrome-keyboard-shortcut-to-pause-script-execution
+>>>> !!!! Very useful, you can go to Chrome devtool, use house to hover on the card, and the hit F8 to pause the animation.
+================================================================================================================================
 
 C:\react\animated-card-with-html-css>npm init -y
 
