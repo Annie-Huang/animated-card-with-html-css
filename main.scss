@@ -15,6 +15,8 @@
   --clr-secondary: rgb(0, 62, 163);
 
   --br: .5em;
+
+  --transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.00);
 }
 
 body {
@@ -68,6 +70,8 @@ img {
   // Use https://bennettfeely.com/clippy/
   // the 50% 85%, is the bottom point, to make it sharper, decrease the 85% size.
   clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
+
+  transition: var(--transition);
 }
 
 .front {
@@ -138,7 +142,7 @@ img {
   }
   .background {
     transition:
-      transform 200ms cubic-bezier(.21, 1.06, .81, 1.00),
+      var(--transition),
       opacity 100ms linear;
 
     opacity: 1;
