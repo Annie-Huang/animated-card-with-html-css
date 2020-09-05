@@ -105,6 +105,9 @@ img {
 .game:hover .front {
   transform: translateY(-30%) scale(0.8);
 }
+.game:hover .front .name {
+  animation: gameName 250ms forwards;
+}
 .game:hover .front .stats {
   opacity: 0;
 }
@@ -126,10 +129,12 @@ img {
   50% {
     text-align: center;
     opacity: 0;
+    transform: scale(1.2);
   }
   100% {
     text-align: center;
     opacity: 1;
+    transform: scale(1.2);
   }
 }
 

@@ -121,6 +121,12 @@ img {
   .front {
     transform: translateY(-30%) scale(.8);
 
+    // The original https://bennettfeely.com/clippy/ make the name disappear
+    // and have another div with the name text appear when on hover.
+    .name {
+      animation: gameName 250ms forwards; //forwards means keep the state after 100%
+    }
+
     .stats {
       opacity: 0;
     }
@@ -137,6 +143,7 @@ img {
 }
 
 // You generally need animation if you want multiple steps
+// and you cannot transition the text-align
 @keyframes gameName {
   0% {
     text-align: left;
@@ -153,12 +160,14 @@ img {
   50% {
     text-align: center;
     opacity: 0;
+    transform: scale(1.2);
   }
 
   // And reappear from the top
   100% {
     text-align: center;
     opacity: 1;
+    transform: scale(1.2);
   }
 }
 
