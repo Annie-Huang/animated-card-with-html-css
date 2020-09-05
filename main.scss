@@ -121,6 +121,17 @@ img {
 
   .streaming-info {
     columns: 2;
+    column-rule: 1px solid rgba(255, 255, 255, .25); // Put a line between two columns
+  }
+
+  .game-stat {
+    font-size: 1.125rem;
+    text-align: center;
+
+    span {
+      font-size: .85rem;
+      display: block;
+    }
   }
 }
 

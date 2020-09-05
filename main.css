@@ -101,6 +101,15 @@ img {
 }
 .back .streaming-info {
   columns: 2;
+  column-rule: 1px solid rgba(255, 255, 255, 0.25);
+}
+.back .game-stat {
+  font-size: 1.125rem;
+  text-align: center;
+}
+.back .game-stat span {
+  font-size: 0.85rem;
+  display: block;
 }
 
 .background {
