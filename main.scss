@@ -96,15 +96,9 @@ img {
   }
 
   .name {
-    // !!!! TODO: Remove later
-    opacity: 0;
-
     margin: .75em 0;
   }
   .stats {
-    // !!!! TODO: Remove later
-    opacity: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,8 +130,6 @@ img {
   align-items: center;
   gap: 1.5em; // Gap cannot be used by safari
 
-  // !!!! TODO: Remove later
-  opacity: 1;
   border: 2px green solid;
 
   .streaming-info {
