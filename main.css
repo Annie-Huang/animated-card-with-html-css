@@ -11,6 +11,7 @@
   --clr-accent: rgb(222, 52, 0);
   --clr-accent-dark: rgb(163, 38, 0);
   --clr-secondary: rgb(0, 62, 163);
+  --br: .5em;
 }
 
 body {
@@ -52,6 +53,9 @@ img {
   border-radius: 50%;
 }
 
+.front .thumbnail {
+  border-radius: var(--br);
+}
 .front .name {
   margin: 0.75em 0;
 }
