@@ -59,6 +59,9 @@ img {
   width: 10em;
   height: 10em;
   position: relative;
+
+  /* Add the transition into .icon because the translateY is in the .icon level */
+  transition: transform ease-in-out 250ms;
 }
 
 /*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
