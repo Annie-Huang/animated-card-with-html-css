@@ -48,6 +48,7 @@ img {
 .streamers {
   display: flex;
   text-align: center;
+  border: 1px solid white;
 }
 
 .streamers img {
@@ -57,5 +58,34 @@ img {
 .icon {
   width: 10em;
   height: 10em;
+  position: relative;
 }
+
+.icon::before,
+.icon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
