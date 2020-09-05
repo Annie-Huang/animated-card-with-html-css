@@ -114,6 +114,7 @@ img {
   align-items: center;
   gap: 1em;
   opacity: 1;
+  border: 2px green solid;
 }
 .back .streaming-info {
   columns: 2;
@@ -155,10 +156,8 @@ img {
 }
 .game:hover .back {
   opacity: 1;
-  background: pink;
 }
 .game:hover .back .streamers {
-  background: red;
   width: 100%;
   display: flex;
   justify-content: space-between;

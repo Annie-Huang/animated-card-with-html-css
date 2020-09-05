@@ -135,6 +135,7 @@ img {
 
   // !!!! TODO: Remove later
   opacity: 1;
+  border: 2px green solid;
 
   .streaming-info {
     columns: 2;
@@ -189,11 +190,9 @@ img {
 
   .back {
     opacity: 1;
-    background: pink;
 
     // This one only apply to the streamers under the .back section
     .streamers {
-      background: red;
       width: 100%;
       display: flex;
       justify-content: space-between;
