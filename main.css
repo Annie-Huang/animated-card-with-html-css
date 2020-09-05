@@ -90,6 +90,10 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+.front .viewers {
+  display: flex;
+  align-items: center;
+}
 .front .viewers::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -99,6 +103,8 @@ img {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+  font-size: 0.85em;
+  margin-right: 0.5em;
 }
 .front .streamers img {
   border: 2px solid var(--clr-dark);

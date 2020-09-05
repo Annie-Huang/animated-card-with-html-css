@@ -35,4 +35,4 @@ https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
     content: "\f007";
 
 Notice the font-weight represent different version of a icon:
-Solid | Regular | Light etc
+Solid (900 for font-weight) | Regular (400 for font-weight) | Light etc

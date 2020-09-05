@@ -104,6 +104,11 @@ img {
     align-items: center;
   }
 
+  .viewers {
+    display: flex;
+    align-items: center;
+  }
+
   // Don't use <i class="fas fa-user"></i>
   // User icon: https://fontawesome.com/icons/user?style=solid
   // Pseudo-element usage for font-icon: https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
@@ -118,6 +123,9 @@ img {
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+
+    font-size: 0.85em;
+    margin-right: 0.5em;
   }
 
   .streamers img {
