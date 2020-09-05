@@ -1,6 +1,6 @@
 Animated card with HTML & CSS | Tutorial (https://www.youtube.com/watch?v=YmyqlM13JUU&t=100s)
 Setting up Font Awesome icons as pseudo-elements (https://www.youtube.com/watch?v=lMBa7gLWyO4)
-
+Create a pulsing animation with CSS (https://www.youtube.com/watch?v=PMGCOVfK-8s&t=94s)
 
 https://github.com/Annie-Huang/animated-card-with-html-css
 https://github.com/kevin-powell/popdog-card-clone
