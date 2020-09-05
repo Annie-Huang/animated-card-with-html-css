@@ -61,6 +61,11 @@ img {
   position: relative;
 }
 
+/*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
+.streamer:hover .icon {
+  transform: translateY(-20%);
+}
+
 .icon::before,
 .icon::after {
   content: '';
