@@ -40,10 +40,6 @@ img {
   width: 12.5em;
 }
 
-.back {
-  display: none;
-}
-
 .streamers {
   display: flex;
 }
@@ -51,6 +47,17 @@ img {
   width: 2em;
   height: 2em;
   border-radius: 50%;
+}
+
+.rank {
+  position: absolute;
+  top: 0;
+  right: 1em;
+  font-weight: bold;
+  font-size: 1.125rem;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.5em 0.5em 0.75em;
+  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
 }
 
 .front .thumbnail {
@@ -75,15 +82,8 @@ img {
   transform: translateX(25%);
 }
 
-.rank {
-  position: absolute;
-  top: 0;
-  right: 1em;
-  font-weight: bold;
-  font-size: 1.125rem;
-  background: rgba(0, 0, 0, 0.65);
-  padding: 0.5em 0.5em 0.75em;
-  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
+.back {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

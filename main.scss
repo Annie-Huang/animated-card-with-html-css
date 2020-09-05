@@ -46,10 +46,6 @@ img {
   width: 12.5em;
 }
 
-.back {
-  display: none;
-}
-
 .streamers {
   display: flex;
   img {
@@ -57,6 +53,20 @@ img {
     height: 2em;
     border-radius: 50%;
   }
+}
+
+.rank {
+  position: absolute;
+  top: 0;
+  right: 1em;
+  font-weight: bold;
+  font-size: 1.125rem;
+  background: rgba(0,0,0,.65);
+  padding: .5em .5em .75em;
+
+  // Use https://bennettfeely.com/clippy/
+  // the 50% 85%, is the bottom point, to make it sharper, decrease the 85% size.
+  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
 }
 
 .front {
@@ -85,21 +95,9 @@ img {
   }
 }
 
-.rank {
-  position: absolute;
-  top: 0;
-  right: 1em;
-  font-weight: bold;
-  font-size: 1.125rem;
-  background: rgba(0,0,0,.65);
-  padding: .5em .5em .75em;
-
-  // Use https://bennettfeely.com/clippy/
-  // the 50% 85%, is the bottom point, to make it sharper, decrease the 85% size.
-  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
+.back {
+  display: none;
 }
-
-
 
 
 
