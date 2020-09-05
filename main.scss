@@ -83,9 +83,15 @@ img {
   }
 
   .name {
+    // !!!! TODO: Remove later
+    opacity: 0;
+
     margin: .75em 0;
   }
   .stats {
+    // !!!! TODO: Remove later
+    opacity: 0;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,6 +115,13 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
+
+  // !!!! TODO: Remove later
+  opacity: 1;
+
+  .streaming-info {
+    columns: 2;
+  }
 }
 
 .background {

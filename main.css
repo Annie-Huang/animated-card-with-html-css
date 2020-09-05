@@ -71,9 +71,11 @@ img {
   border-radius: var(--br);
 }
 .front .name {
+  opacity: 0;
   margin: 0.75em 0;
 }
 .front .stats {
+  opacity: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,6 +97,10 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 1;
+}
+.back .streaming-info {
+  columns: 2;
 }
 
 .background {
