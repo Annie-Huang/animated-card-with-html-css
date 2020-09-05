@@ -77,8 +77,10 @@ img {
   content: "\f04b";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-
+  font-size: 2em;
   background: #f00;
+  display: grid;
+  place-items: center;
 }
 
 
