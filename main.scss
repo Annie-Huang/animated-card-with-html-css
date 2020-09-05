@@ -129,7 +129,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 1em; // Gap cannot be used by safari
 
   // !!!! TODO: Remove later
   opacity: 1;
