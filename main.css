@@ -60,6 +60,9 @@ img {
   clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
 }
 
+.front {
+  transition: 250ms;
+}
 .front .thumbnail {
   border-radius: var(--br);
 }
@@ -98,6 +101,9 @@ img {
   transition: 250ms;
 }
 
+.game:hover .front {
+  transform: translateY(-30%);
+}
 .game:hover .background {
   transform: scale(1.5);
 }
