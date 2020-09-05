@@ -99,13 +99,14 @@ img {
   z-index: -1;
   transform: scale(0.2, 0.9);
   transition: 250ms;
+  border-radius: var(--br);
 }
 
 .game:hover .front {
   transform: translateY(-30%);
 }
 .game:hover .background {
-  transform: scale(1.5);
+  transform: scale(1.4, 1.2);
 }
 
 /*# sourceMappingURL=main.css.map */
