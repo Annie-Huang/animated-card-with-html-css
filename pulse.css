@@ -86,7 +86,8 @@ img {
   z-index: 10;
 }
 
-.icon::after {
+/*.icon::after {*/
+.icon:hover::after {
   background: #f00;
   z-index: 1;
   animation: pulse 1s infinite;
