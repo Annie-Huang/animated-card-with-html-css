@@ -51,6 +51,7 @@ img {
   padding: .5em 1.5em;
 }
 
+// Or youc can call it icon-before and have a icon-after to do ::after
 .icon::before {
   font-family: "Font Awesome 5 Free";
   //font-weight: 400; // 400 will go to the Regular version rather than Solid version
