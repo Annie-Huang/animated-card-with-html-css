@@ -113,6 +113,7 @@ img {
   // Main reason to create this div is because we need to do some transform on the scale
   //transform: scale(.5);
   transform: scale(.2, .9); // scale(sx, sy). Good technique to make it seems stretches wide rather than stretches tall
+  opacity: 0;
   transition: 250ms;
   border-radius: var(--br);
 }
@@ -122,6 +123,7 @@ img {
     transform: translateY(-30%);
   }
   .background {
+    opacity: 1;
     //transform: scale(1.5);
     transform: scale(1.4, 1.2); // Make it stretch less for height
   }
