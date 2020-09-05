@@ -104,6 +104,22 @@ img {
     align-items: center;
   }
 
+  // Don't use <i class="fas fa-user"></i>
+  // User icon: https://fontawesome.com/icons/user?style=solid
+  // Pseudo-element usage for font-icon: https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
+  .viewers::before {
+    font-family: "Font Awesome 5 Free";
+    //font-weight: 400; // 400 will go to the Regular version rather than Solid version
+    font-weight: 900;
+    content: "\f007";
+
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
   .streamers img {
     border: 2px solid var(--clr-dark);
     &:nth-of-type(1) {

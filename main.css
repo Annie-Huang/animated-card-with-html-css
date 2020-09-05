@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -88,6 +89,16 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.front .viewers::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 .front .streamers img {
   border: 2px solid var(--clr-dark);
