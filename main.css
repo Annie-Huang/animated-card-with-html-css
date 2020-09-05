@@ -43,4 +43,22 @@ img {
   display: none;
 }
 
+.streamers {
+  display: flex;
+}
+.streamers img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.front .name {
+  margin: 0.75em 0;
+}
+.front .stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -48,7 +48,25 @@ img {
   display: none;
 }
 
+.streamers {
+  display: flex;
+  img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+  }
+}
 
+.front {
+  .name {
+    margin: .75em 0;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 
 
