@@ -136,7 +136,31 @@ img {
   }
 }
 
+// You generally need animation if you want multiple steps
+@keyframes gameName {
+  0% {
+    text-align: left;
+    opacity: 1;
+  }
 
+  // Make it disappear
+  20% {
+    text-align: left;
+    opacity: 0;
+  }
+
+  // Move position
+  50% {
+    text-align: center;
+    opacity: 0;
+  }
+
+  // And reappear from the top
+  100% {
+    text-align: center;
+    opacity: 1;
+  }
+}
 
 
 
