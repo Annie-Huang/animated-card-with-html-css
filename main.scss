@@ -57,7 +57,7 @@ img {
   position: relative;
   width: 12.5em;
   cursor: pointer;
-  border: 1px red solid;
+  //border: 1px red solid;
 }
 
 .streamers {
@@ -130,7 +130,7 @@ img {
   align-items: center;
   gap: 1.5em; // Gap cannot be used by safari
 
-  border: 2px green solid;
+  //border: 2px green solid;
 
   .streaming-info {
     columns: 2;
