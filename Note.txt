@@ -7,6 +7,7 @@ https://github.com/kevin-powell/popdog-card-clone
 
 https://popdog.com/
 https://bennettfeely.com/clippy/
+https://cdnjs.com/libraries/font-awesome
 
 https://stackoverflow.com/questions/12833514/paused-in-debugger-in-chrome
 https://superuser.com/questions/249050/chrome-keyboard-shortcut-to-pause-script-execution
