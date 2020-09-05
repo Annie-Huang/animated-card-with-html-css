@@ -159,6 +159,9 @@ img {
 }
 .game:hover .back .streamers {
   background: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .game:hover .back .stream {
   font-size: 0.9rem;

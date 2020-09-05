@@ -194,6 +194,9 @@ img {
     // This one only apply to the streamers under the .back section
     .streamers {
       background: red;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
     }
 
     .stream {
