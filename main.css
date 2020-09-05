@@ -30,4 +30,17 @@ p {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+.game {
+  position: relative;
+  width: 12.5em;
+}
+
+.back {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

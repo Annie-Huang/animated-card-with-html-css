@@ -1,3 +1,5 @@
+// Reset values
+// ====================================
 *,
 *::before,
 *::after {
@@ -31,6 +33,20 @@ p {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+// Component styling
+// ====================================
+.game {
+  position: relative;
+  width: 12.5em;
+}
+
+.back {
+  display: none;
+}
 
 
 
