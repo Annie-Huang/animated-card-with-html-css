@@ -90,7 +90,7 @@ img {
 .icon:hover::after {
   background: #f00;
   z-index: 1;
-  animation: pulse 1s infinite;
+  animation: pulse 1.25s infinite;
 }
 
 @keyframes pulse {
