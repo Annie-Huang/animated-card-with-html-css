@@ -55,6 +55,7 @@ img {
 
 .streamers {
   display: flex;
+  text-align: center;
 }
 .streamers img {
   width: 2em;
@@ -154,6 +155,13 @@ img {
 }
 .game:hover .back {
   opacity: 1;
+  background: pink;
+}
+.game:hover .back .streamers {
+  background: red;
+}
+.game:hover .back .stream {
+  font-size: 0.9rem;
 }
 .game:hover .background {
   transition: var(--transition), opacity 100ms linear;
