@@ -125,7 +125,10 @@ img {
 .back {
   opacity: 0;
   position: absolute;
-  bottom: 0;
+
+  //bottom: 0;
+  top: 52%; // Try to push down the .back section, or you can use bottom negative value to do it.
+
   left: 0;
   right: 0;
   display: flex;

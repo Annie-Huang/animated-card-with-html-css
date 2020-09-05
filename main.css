@@ -106,7 +106,7 @@ img {
 .back {
   opacity: 0;
   position: absolute;
-  bottom: 0;
+  top: 52%;
   left: 0;
   right: 0;
   display: flex;
