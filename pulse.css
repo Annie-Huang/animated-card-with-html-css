@@ -69,9 +69,17 @@ img {
   bottom: 0;
   right: 0;
   left: 0;
+  border-radius: 50%;
 }
 
+/* The part I don't understand here is that why the image is not stack after the icon::before??? */
+.icon::before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 
+  background: #f00;
+}
 
 
 
