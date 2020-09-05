@@ -53,6 +53,7 @@ img {
   position: absolute;
   top: 0;
   right: 1em;
+  z-index: 1000;
   font-weight: bold;
   font-size: 1.125rem;
   background: rgba(0, 0, 0, 0.65);
@@ -102,6 +103,9 @@ img {
   border-radius: var(--br);
 }
 
+.game:hover .rank {
+  transform: translate(150%, -74%);
+}
 .game:hover .front {
   transform: translateY(-30%) scale(0.8);
 }

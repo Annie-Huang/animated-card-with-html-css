@@ -59,6 +59,7 @@ img {
   position: absolute;
   top: 0;
   right: 1em;
+  z-index: 1000;
   font-weight: bold;
   font-size: 1.125rem;
   background: rgba(0,0,0,.65);
@@ -118,10 +119,14 @@ img {
 }
 
 .game:hover {
+  .rank {
+    transform: translate(150%, -74%);
+  }
+
   .front {
     transform: translateY(-30%) scale(.8);
 
-    // The original https://bennettfeely.com/clippy/ make the name disappear
+    // The original https://popdog.com/ make the name disappear
     // and have another div with the name text appear when on hover.
     .name {
       animation: gameName 250ms forwards; //forwards means keep the state after 100%
