@@ -78,6 +78,7 @@ img {
   right: 1em;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em 0.5em 0.75em;
+  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
 }
 
 /*# sourceMappingURL=main.css.map */

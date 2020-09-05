@@ -86,6 +86,10 @@ img {
   right: 1em;
   background: rgba(0,0,0,.5);
   padding: .5em .5em .75em;
+
+  // Use https://bennettfeely.com/clippy/
+  // the 50% 85%, is the bottom point, to make it sharper, decrease the 85% size.
+  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
 }
 
 
