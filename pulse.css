@@ -1,0 +1,57 @@
+// Reset values
+// ====================================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* CSS Custom property */
+:root {
+  --clr-dark: rgb(13,17,19);
+  --clr-light: #fff;
+  --clr-accent: rgb(222, 52, 0);
+  --clr-accent-dark: rgb(163, 38, 0);
+  --clr-secondary: rgb(0, 76, 199);
+
+  --br: .5em;
+
+  --transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.00);
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: grid;
+
+  /* place-items shorthand property for align-items justify-items */
+  place-items: center;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.streamers {
+  display: flex;
+  text-align: center;
+}
+
+.streamers img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
