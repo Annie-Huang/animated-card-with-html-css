@@ -130,6 +130,9 @@ img {
   align-items: center;
   gap: 1.5em; // Gap cannot be used by safari
 
+  transform: translateY(35%);
+  transition: transform 250ms ease, opacity 150ms linear;
+
   //border: 2px green solid;
 
   .streaming-info {
@@ -186,6 +189,10 @@ img {
 
   .back {
     opacity: 1;
+
+    // You need to comment the following line to see what is   transform: translateY(35%); does first in line 133
+    // This transition is basically trying to make the .back looks like that it shift up from y position 35% to y position 0 (top is y=0) on hover
+    transform: translateY(0);
 
     // This one only apply to the streamers under the .back section
     .streamers {
