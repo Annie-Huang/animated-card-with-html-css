@@ -122,7 +122,9 @@ img {
     transform: translateY(-30%);
   }
   .background {
-    transition: transform 250ms;
+    transition:
+      transform 200ms cubic-bezier(.21, 1.06, .81, 1.00),
+      opacity 100ms linear;
 
     opacity: 1;
     //transform: scale(1.5);
