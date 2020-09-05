@@ -72,7 +72,9 @@ img {
   border-radius: 50%;
 }
 
-/* The part I don't understand here is that why the image is not stack after the icon::before??? */
+/* The part I don't understand here is that why the image is not stack after the icon::before???
+   (this happened before we use z-index...)
+*/
 .icon::before {
   content: "\f04b";
   font-family: "Font Awesome 5 Free";
@@ -81,6 +83,12 @@ img {
   background: #f00;
   display: grid;
   place-items: center;
+  z-index: 10;
+}
+
+.icon::after {
+  background: lightblue;
+  z-index: 1;
 }
 
 
