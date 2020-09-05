@@ -127,14 +127,14 @@ img {
   position: absolute;
 
   //bottom: 0;
-  top: 52%; // Try to push down the .back section, or you can use bottom negative value to do it.
+  top: 55%; // Try to push down the .back section, or you can use bottom negative value to do it.
 
   left: 0;
   right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em; // Gap cannot be used by safari
+  gap: 1.5em; // Gap cannot be used by safari
 
   // !!!! TODO: Remove later
   opacity: 1;
@@ -157,7 +157,7 @@ img {
 }
 
 .background {
-  background: #234;
+  background: rgb(40,46,54);
   position: absolute;
   top: 0;
   bottom: 0;
