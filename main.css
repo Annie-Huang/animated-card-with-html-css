@@ -60,5 +60,15 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+.front .streamers img {
+  border: 2px solid var(--clr-dark);
+}
+.front .streamers img:nth-of-type(1) {
+  transform: translateX(50%);
+  z-index: 1;
+}
+.front .streamers img:nth-of-type(2) {
+  transform: translateX(25%);
+}
 
 /*# sourceMappingURL=main.css.map */
