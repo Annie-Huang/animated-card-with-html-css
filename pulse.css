@@ -98,6 +98,11 @@ img {
   z-index: 10;
 }
 
+/* Make ::before a darker red when hover */
+.icon:hover::before {
+  background: #cc0202;
+}
+
 /*.icon::after {*/
 .icon:hover::after {
   background: #f00;
