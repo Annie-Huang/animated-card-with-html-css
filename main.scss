@@ -99,7 +99,25 @@ img {
   display: none;
 }
 
+.background {
+  background: #234;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 
+  // Main reason to create this div is because we need to do some transform on the scale
+  transform: scale(.5);
+  transition: 250ms;
+}
+
+.game:hover {
+  .background {
+    transform: scale(1.5);
+  }
+}
 
 
 
