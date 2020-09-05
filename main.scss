@@ -119,7 +119,11 @@ img {
 
 .game:hover {
   .front {
-    transform: translateY(-30%);
+    transform: translateY(-30%) scale(.8);
+
+    .stats {
+      opacity: 0;
+    }
   }
   .background {
     transition:
