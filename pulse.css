@@ -51,7 +51,11 @@ img {
 }
 
 .streamers img {
-  width: 10em;
-  height: 10em;
   border-radius: 50%;
 }
+
+.icon {
+  width: 10em;
+  height: 10em;
+}
+
