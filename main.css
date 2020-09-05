@@ -111,10 +111,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1em;
   opacity: 1;
 }
 .back .streaming-info {
-  margin: 1em 0;
   columns: 2;
   column-rule: 1px solid rgba(255, 255, 255, 0.25);
 }
