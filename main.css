@@ -280,10 +280,10 @@ img {
   0% {
     transform: scale(0.95);
     /* Not using 1 will make this less pop at the beginning */
-    opacity: 0.75;
+    opacity: 0.9;
   }
   100% {
-    transform: scale(1.35);
+    transform: scale(1.4);
     opacity: 0;
   }
 }
