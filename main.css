@@ -181,7 +181,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.game:hover .back .stream {
+.game:hover .back .streamer {
   font-size: 0.9rem;
 }
 .game:hover .background {

@@ -230,8 +230,8 @@ img {
       justify-content: space-between;
     }
 
-    .stream {
-      // I reckon this one can be keep in the top section as the class .stream is only used under streamers and it doesn't have in the front section
+    .streamer {
+      // I reckon this one can be keep in the top section as the class .streamer is only used under streamers and it doesn't have in the front section
       font-size: .9rem;
     }
   }
@@ -274,6 +274,7 @@ img {
     transform: scale(1.2);
   }
 }
+
 
 
 
