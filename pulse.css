@@ -69,6 +69,10 @@ img {
   transform: translateY(-20%);
 }
 
+.streamer:hover .icon::before {
+  opacity: 1;
+}
+
 /*When I hover on the any of .icon area make the icon stay upwards and make it bigger
   You don't need to do '.streamer:hover .icon:hover', just icon:hover will work.
 */
@@ -78,6 +82,7 @@ img {
 
 .icon::before,
 .icon::after {
+  opacity: 0;
   content: '';
   position: absolute;
   top: 0;
