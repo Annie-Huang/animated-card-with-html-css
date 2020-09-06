@@ -212,5 +212,80 @@ img {
     transform: scale(1.2);
   }
 }
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  position: relative;
+  /* Add the transition into .icon because the translateY is in the .icon level */
+  transition: transform ease-in-out 150ms;
+}
+
+/*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
+.streamer:hover .icon {
+  transform: translateY(-20%);
+}
+
+.streamer:hover .icon::before {
+  opacity: 1;
+}
+
+/*When I hover on the any of .icon area make the icon stay upwards and make it bigger
+  You don't need to do '.streamer:hover .icon:hover', just icon:hover will work.
+*/
+.streamer .icon:hover {
+  transform: translateY(-20%) scale(1.1);
+}
+
+.icon::before,
+.icon::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+/* The part I don't understand here is that why the image is not stack after the icon::before???
+   (this happened before we use z-index...)
+*/
+.icon::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.65em;
+  background: #f00;
+  display: grid;
+  place-items: center;
+  z-index: 10;
+  transition: opacity 75ms linear, background-color 100ms linear;
+}
+
+/* Make ::before a darker red when hover */
+.icon:hover::before {
+  background: #cc0202;
+}
+
+/*.icon::after {*/
+.icon:hover::after {
+  background: #f00;
+  z-index: 1;
+  animation: pulse 1.25s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    /* Not using 1 will make this less pop at the beginning */
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
