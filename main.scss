@@ -284,7 +284,7 @@ img {
 // Copy from pulse.css
 // and make small changes
 // ====================================
-.icon {
+.streamer .icon {
   display: inline-block;  // changed from pulse.css
   width: 2em;  // changed from pulse.css
   height: 2em; // changed from pulse.css
@@ -296,7 +296,7 @@ img {
 
 /*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
 .streamer:hover .icon {
-  transform: translateY(-20%);
+  transform: translateY(-10%); // changed from pulse.css
 }
 
 .streamer:hover .icon::before {
@@ -307,7 +307,7 @@ img {
   You don't need to do '.streamer:hover .icon:hover', just icon:hover will work.
 */
 .streamer .icon:hover {
-  transform: translateY(-20%) scale(1.1);
+  transform: translateY(-15%) scale(1.2); // changed from pulse.css
 }
 
 .icon::before,

@@ -212,7 +212,7 @@ img {
     transform: scale(1.2);
   }
 }
-.icon {
+.streamer .icon {
   display: inline-block;
   width: 2em;
   height: 2em;
@@ -223,7 +223,7 @@ img {
 
 /*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
 .streamer:hover .icon {
-  transform: translateY(-20%);
+  transform: translateY(-10%);
 }
 
 .streamer:hover .icon::before {
@@ -234,7 +234,7 @@ img {
   You don't need to do '.streamer:hover .icon:hover', just icon:hover will work.
 */
 .streamer .icon:hover {
-  transform: translateY(-20%) scale(1.1);
+  transform: translateY(-15%) scale(1.2);
 }
 
 .icon::before,
