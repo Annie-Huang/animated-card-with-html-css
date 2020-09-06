@@ -61,7 +61,7 @@ img {
   position: relative;
 
   /* Add the transition into .icon because the translateY is in the .icon level */
-  transition: transform ease-in-out 250ms;
+  transition: transform ease-in-out 150ms;
 }
 
 /*When I hover on the any of .stream area (icon + text), make the icon move upwards*/
@@ -99,6 +99,7 @@ img {
   display: grid;
   place-items: center;
   z-index: 10;
+  transition: background-color 100ms linear;
 }
 
 /* Make ::before a darker red when hover */
