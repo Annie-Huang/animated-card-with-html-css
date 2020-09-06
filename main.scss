@@ -14,9 +14,9 @@
   --clr-accent-dark: rgb(163, 38, 0);
   --clr-secondary: rgb(0, 76, 199);
 
-  --br: .5em;
+  --br: 0.5em;
 
-  --transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.00);
+  --transition: transform 200ms cubic-bezier(0.21, 1, 0.81, 1);
 }
 
 body {
@@ -53,11 +53,10 @@ img {
 
 // Or youc can call it icon-before and have a icon-after to do ::after
 .icon::before {
+  display: inline-block;
   font-family: "Font Awesome 5 Free";
   //font-weight: 400; // 400 will go to the Regular version rather than Solid version
   font-weight: 900;
-
-  display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
@@ -91,8 +90,8 @@ img {
   z-index: 1000;
   font-weight: bold;
   font-size: 1.125rem;
-  background: rgba(0,0,0,.65);
-  padding: .5em .5em .75em;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.5em 0.5em 0.75em;
 
   // Use https://bennettfeely.com/clippy/
   // the 50% 85%, is the bottom point, to make it sharper, decrease the 85% size.
@@ -109,7 +108,7 @@ img {
   }
 
   .name {
-    margin: .75em 0;
+    margin: 0.75em 0;
   }
   .stats {
     display: flex;
@@ -165,7 +164,7 @@ img {
 
   .streaming-info {
     columns: 2;
-    column-rule: 1px solid rgba(255, 255, 255, .25); // Put a line between two columns
+    column-rule: 1px solid rgba(255, 255, 255, 0.25); // Put a line between two columns
   }
 
   .game-stat {
@@ -173,7 +172,7 @@ img {
     text-align: center;
 
     span {
-      font-size: .85rem;
+      font-size: 0.85rem;
       display: block;
     }
   }
@@ -190,7 +189,7 @@ img {
 
   // Main reason to create this div is because we need to do some transform on the scale
   //transform: scale(.5);
-  transform: scale(.2, .9); // scale(sx, sy). Good technique to make it seems stretches wide rather than stretches tall
+  transform: scale(0.2, 0.9); // scale(sx, sy). Good technique to make it seems stretches wide rather than stretches tall
   opacity: 0;
   border-radius: var(--br);
 }
@@ -202,7 +201,7 @@ img {
   }
 
   .front {
-    transform: translateY(-30%) scale(.8);
+    transform: translateY(-30%) scale(0.8);
 
     // The original https://popdog.com/ make the name disappear
     // and have another div with the name text appear when on hover.
@@ -226,13 +225,16 @@ img {
     // This one only apply to the streamers under the .back section
     .streamers {
       width: 100%;
-      display: flex;
+      //display: flex;  // changed from pulse.css
       justify-content: space-between;
     }
 
     .streamer {
       // I reckon this one can be keep in the top section as the class .streamer is only used under streamers and it doesn't have in the front section
-      font-size: .9rem;
+      font-size: 0.9rem;
+    }
+    .name {
+      font-weight: bold;
     }
   }
   .background {

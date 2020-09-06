@@ -12,8 +12,8 @@
   --clr-accent: rgb(222, 52, 0);
   --clr-accent-dark: rgb(163, 38, 0);
   --clr-secondary: rgb(0, 76, 199);
-  --br: .5em;
-  --transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.00);
+  --br: 0.5em;
+  --transition: transform 200ms cubic-bezier(0.21, 1, 0.81, 1);
 }
 
 body {
@@ -48,9 +48,9 @@ img {
 }
 
 .icon::before {
+  display: inline-block;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
@@ -178,11 +178,13 @@ img {
 }
 .game:hover .back .streamers {
   width: 100%;
-  display: flex;
   justify-content: space-between;
 }
 .game:hover .back .streamer {
   font-size: 0.9rem;
+}
+.game:hover .back .name {
+  font-weight: bold;
 }
 .game:hover .background {
   transition: var(--transition), opacity 100ms linear;
