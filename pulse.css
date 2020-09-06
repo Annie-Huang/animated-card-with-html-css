@@ -12,9 +12,9 @@
   --clr-accent-dark: rgb(163, 38, 0);
   --clr-secondary: rgb(0, 76, 199);
 
-  --br: .5em;
+  --br: 0.5em;
 
-  --transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.00);
+  --transition: transform 200ms cubic-bezier(0.21, 1, 0.81, 1);
 }
 
 body {
