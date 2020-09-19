@@ -161,6 +161,9 @@ img {
 .background img {
   opacity: 0.3;
   clip-path: url(#wave);
+  height: 30%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .game:hover .rank {
