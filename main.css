@@ -158,6 +158,10 @@ img {
   opacity: 0;
   border-radius: var(--br);
 }
+.background img {
+  opacity: 0.3;
+  clip-path: url(#wave);
+}
 
 .game:hover .rank {
   transform: translate(150%, -62%);
