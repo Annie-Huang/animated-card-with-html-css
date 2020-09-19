@@ -192,6 +192,7 @@ img {
   transform: scale(0.2, 0.9); // scale(sx, sy). Good technique to make it seems stretches wide rather than stretches tall
   opacity: 0;
   border-radius: var(--br);
+  overflow: hidden; // So my around corner can be back after inserting the wave image below
 
   img {
     opacity: 0.3;

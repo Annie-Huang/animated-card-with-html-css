@@ -157,6 +157,7 @@ img {
   transform: scale(0.2, 0.9);
   opacity: 0;
   border-radius: var(--br);
+  overflow: hidden;
 }
 .background img {
   opacity: 0.3;
